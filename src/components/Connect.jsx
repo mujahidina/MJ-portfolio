@@ -44,7 +44,7 @@ function Connect() {
 
 
   return (
-    <div className="bg-red-500 h-screen flex flex-col items-center justify-center text-white p-4">
+    <div className="bg-black h-screen flex flex-col items-center justify-center text-white p-4">
       <h1 className="text-5xl font-extrabold mb-6 ">Let's Connect!</h1>
       <p className="mb-10 text-lg text-center max-w-md font-semibold">
         Feel free to drop me a message, I'd love to hear from you!
@@ -91,7 +91,7 @@ function Connect() {
 
         <button
           type="submit"
-          className="w-full bg-red-500 text-white py-2 px-4 rounded-md font-bold hover:bg-red-600 transition duration-300"
+          className="w-full bg-black text-white py-2 px-4 rounded-md font-bold hover:bg-red-600 transition duration-300"
         >
           Send Message
         </button>
